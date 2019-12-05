@@ -1,5 +1,5 @@
 ---
-title: The Commish: The First Pro Kickballer
+title: The Commish\: The First Pro Kickballer
 author: the commish
 date: 2019-06-13
 # tags: ["kickball","professional kickball"]
