@@ -1,8 +1,7 @@
 ---
-# path: "/the-elementary-mba/raise-your-prices"
-# author: "aweful"
-# date: "2019-06-11T13:35:13.234Z"
-# title: "Raise Your Prices"
+# title: Raise Your Prices
+# author: awe ful
+# date: 2019-06-11
 # tags: ["the elementary mba","temba", "price", "marketing"]
 # category: "post"
 ---
@@ -12,7 +11,7 @@ What Do You Know About The Supply/Demand Curve?
 
 So my [family member](http://localhost:8000/idnkhtw/they-is-my-family-member) (link to blog post discussing what I should call my niece now that she uses they as the pronoun of choice. See if anyone else has had a similar experience. I’ll ask blckbon what their preference is.), blckbon, is a dope animator. [Receipts](https://twitter.com/blckbon/status/1128738440135135232), that's their hand drawn animation. They did that by hand. [I did this with a computer over a year ago.](https://www.youtube.com/watch?v=bT4Kg_ES8nQ) I’m proud of me and mine, including the struggle animation at the end of that link.
 
-So I’m scrolling through fb a month or two back and see [post](http://voyagephoenix.com/interview/art-life-jadzia-hart/) about blckbon being interviewed for their artistry. I read it and followed the links. Checked out their social media and saw blckbon’s progression. There’s a post, asking for commissions. Price is crazy low, $25.
+So I’m scrolling through fb a month or two back and see [post](http://voyagephoenix.com/interview/art-life-jadzia-hart/) about blckbon being interviewed for their artistry. I read it and followed the links. Checked out their social media and saw blckbon’s progression. There’s a post, asking for commissions. Price is crazy low, \$25.
 MBA mode. Price is way too low. Hand drawn. I can see, if you’re at the circus, carnival, fair, pier, boardwalk, whatever.
 
 Commissions Post:

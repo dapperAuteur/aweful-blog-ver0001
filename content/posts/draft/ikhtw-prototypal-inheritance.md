@@ -1,11 +1,11 @@
 ---
-# path: "/imposter-syndrome/sink-or-swim"
-# author: "aweful"
-# date: "2019-06-04T13:35:13.234Z"
-# title: "Sink or Swim"
+# title: Sink or Swim
+# author: awe ful
+# date: 2019-06-04
 # tags: ["junior developer","imposter syndrome"]
 # category: "post"
 ---
+
 # iKHtW prototypal inheritance
 
 This is a podcast episode from ‘I Know How this Works’. You can subscribe here or on iTunes podcasts.
@@ -18,4 +18,4 @@ This is a podcast episode from ‘I Know How this Works’. You can subscribe he
 Sources:
 [http://javascript.info/tutorial/inheritance](http://javascript.info/tutorial/inheritance)
 
-*Originally published at [awews.com](http://awews.com/i-know-how-this-works/2016/10/19/ikhtw-prototypal-inheritance) on October 19, 2016.*
+_Originally published at [awews.com](http://awews.com/i-know-how-this-works/2016/10/19/ikhtw-prototypal-inheritance) on October 19, 2016._

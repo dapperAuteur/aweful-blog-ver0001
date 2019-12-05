@@ -1,10 +1,9 @@
 ---
-path: "/about"
-author: "aweful"
-date: "2019-06-11"
-title: "About iDNKHtW"
-tags: ["about", "idnkhtw"]
-category: "about"
+title: About iDNKHtW
+author: awe ful
+date: 2019-06-11
+# tags: ["about", "idnkhtw"]
+# category: "about"
 ---
 
 i Do NOT Know How `this` Works.

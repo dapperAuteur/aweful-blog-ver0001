@@ -1,10 +1,9 @@
 ---
-path: "/have-an-aweful-meeting"
-author: "aweful"
-date: "2019-06-11"
-title: "Meet With aweful"
-tags: ["calendar", "meet with aweful"]
-category: "post"
+title: Meet With aweful
+author: awe ful
+date: 2019-06-11
+# tags: ["calendar", "meet with aweful"]
+# category: "post"
 ---
 
 Let's pair code, talk tech, talk financial literacy, or talk kickball.

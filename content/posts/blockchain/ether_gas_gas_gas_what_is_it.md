@@ -1,10 +1,9 @@
 ---
-path: "/ethereum/ether-gas-gas-gas-what-is-it"
-author: "aweful"
-date: "2018-07-24T13:35:13.234Z"
-title: "Ether Gas. Gas. Gas. What Is It?"
-tags: ["ether","ethereum", "blockchain", "gitcoin"]
-category: "post"
+title: Ether Gas. Gas. Gas. What Is It?
+author: awe ful
+date: 2018-07-24
+# tags: ["ether","ethereum", "blockchain", "gitcoin"]
+# category: "post"
 ---
 
 # Ether Gas. Gas. Gas. What Is It?
@@ -30,11 +29,11 @@ Sidebar: here’s a link to get some [FREE Gas](http://bit.ly/2LAJ4zX) from the 
 
 The market should create a tolerable Gas price. A price that a miner would be willing and able to work for and a price you, the bounty hunter, is willing and able to pay out of your bounty.
 
-**Sidebar**: *A better definition is [here](https://ethereum.stackexchange.com/questions/3/what-is-meant-by-the-term-gas) if you desire more info. I recommend you make it there eventually. You may monitor the Gas price [here](https://ethgasstation.info/). I recommend visiting that page before setting the price for the work your going to do or submitting work to be done.*
+**Sidebar**: _A better definition is [here](https://ethereum.stackexchange.com/questions/3/what-is-meant-by-the-term-gas) if you desire more info. I recommend you make it there eventually. You may monitor the Gas price [here](https://ethgasstation.info/). I recommend visiting that page before setting the price for the work your going to do or submitting work to be done._
 
 So what caused the spike in Gas prices nine days ago and seventeen days ago, (time from the publishing of this article)?
 
-![take from [https://gitcoin.co/gas/history?breakdown=daily](http://bit.ly/2NJLsSf)](https://cdn-images-1.medium.com/max/2000/1*RpSyuKyI1BNSIxRp_FYWgQ.png)*take from [https://gitcoin.co/gas/history?breakdown=daily](http://bit.ly/2NJLsSf)*
+![take from [https://gitcoin.co/gas/history?breakdown=daily](http://bit.ly/2NJLsSf)](https://cdn-images-1.medium.com/max/2000/1*RpSyuKyI1BNSIxRp_FYWgQ.png)_take from [https://gitcoin.co/gas/history?breakdown=daily](http://bit.ly/2NJLsSf)_
 
 What’s to prevent it from happening again?
 

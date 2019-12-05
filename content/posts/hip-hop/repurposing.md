@@ -1,11 +1,11 @@
 ---
-# path: "/hip-hop-jewels/"
-# author: "aweful"
-# date: "1979-06-20T13:35:13.234Z"
-# title: "Hip-Hop Jewel"
+# title: Hip-Hop Jewel
+# author: awe ful
+# date: 1979-06-20
 # tags: ["hip-hop","jewel", "about", "#hiphopjewel"]
 # category: "post"
 ---
+
 # Hip-Hop Jewels
 
 A Hip-Hop Jewel is a word or phrase that one may use to help them make a decision when in a difficult situations.

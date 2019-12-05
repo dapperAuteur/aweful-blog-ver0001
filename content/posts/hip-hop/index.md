@@ -1,10 +1,9 @@
 ---
-path: '/hip-hop-axiom/'
-author: 'aweful'
-date: '1979-06-20T13:35:13.234Z'
-title: 'Hip-Hop Axiom'
-tags: ['hip-hop', 'axiom', 'about']
-category: 'post'
+title: "Hip-Hop Axiom"
+author: awe ful
+date: 1979-06-20
+# tags: ['hip-hop', 'axiom', 'about']
+# category: 'post'
 ---
 
 # Hip-Hop Axiom

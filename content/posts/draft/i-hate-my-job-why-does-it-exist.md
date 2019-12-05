@@ -1,11 +1,11 @@
 ---
-# path: "/imposter-syndrome/sink-or-swim"
-# author: "aweful"
-# date: "2019-06-04T13:35:13.234Z"
-# title: "Sink or Swim"
+# title: Sink or Swim
+# author: awe ful
+# date: 2019-06-04
 # tags: ["junior developer","imposter syndrome"]
 # category: "post"
 ---
+
 # I Hate My Job. Why Does It Exist
 
 Fuck Everything And Reload.
@@ -23,5 +23,3 @@ It starts with we.
 In hard work we trust and respect.
 
 In progress we trust and respect.
-
-

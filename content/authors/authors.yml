@@ -16,3 +16,21 @@
       url: https://www.facebook.com/brandanthonymcdonald
     - name: linkedin
       url: https://www.linkedin.com/in/brandanthonymcdonald
+- name: the commish
+  bio: |
+    I’m the world’s first professional kickball player.
+    I’m currently training to be the world’s fastest centenarian. I do this not to brag, but to inspire.
+    You may follow me @ProKickballer.
+  avatar: ./avatars/aweful-brown.png
+  featured: true
+  social:
+    - name: github
+      url: https://github.com/dapperAuteur
+    - name: twitter
+      url: https://twitter.com/ProKickballer
+    - name: instagram
+      url: https://instagram.com/prokickballer
+    - name: facebook
+      url: https://www.facebook.com/ProKickballer
+    - name: linkedin
+      url: https://www.linkedin.com/in/brandanthonymcdonald

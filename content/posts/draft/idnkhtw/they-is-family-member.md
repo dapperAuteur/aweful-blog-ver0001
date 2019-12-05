@@ -1,8 +1,7 @@
 ---
-# path: "/idnkhtw/they-is-my-family-member"
-# author: "aweful"
-# date: "2019-06-11T11:35:13.234Z"
-# title: "They Is My Family Member"
+title: They Is My Family Member
+author: awe ful
+date: 2019-06-11
 # tags: ["pronouns","lgbtqia"]
 # category: "post"
 ---
