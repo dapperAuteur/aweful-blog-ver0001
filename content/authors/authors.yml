@@ -1,0 +1,18 @@
+- name: awe ful
+  bio: |
+    I write Code. I’m the world’s first professional kickball player.
+    I’m currently training to be the world’s fastest centenarian.
+    You may follow me @awefulBrown.
+  avatar: ./avatars/aweful-brown.png
+  featured: true
+  social:
+    - name: github
+      url: https://github.com/dapperAuteur
+    - name: twitter
+      url: https://twitter.com/awefulBrown
+    - name: instagram
+      url: https://instagram.com/awefulbrown
+    - name: facebook
+      url: https://www.facebook.com/brandanthonymcdonald
+    - name: linkedin
+      url: https://www.linkedin.com/in/brandanthonymcdonald
