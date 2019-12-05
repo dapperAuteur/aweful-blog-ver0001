@@ -2,6 +2,7 @@
 title: "Hip-Hop Axiom"
 author: awe ful
 date: 1979-06-20
+hero: ./../images/hero.jpg
 # tags: ['hip-hop', 'axiom', 'about']
 # category: 'post'
 ---

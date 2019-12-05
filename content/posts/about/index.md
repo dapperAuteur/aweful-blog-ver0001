@@ -2,6 +2,7 @@
 title: About iDNKHtW
 author: awe ful
 date: 2019-06-11
+hero: ./../images/hero.jpg
 # tags: ["about", "idnkhtw"]
 # category: "about"
 ---
@@ -20,8 +21,7 @@ Don’t Be Good. Be Great. Be Grateful.
 
 aweful
 
-
-<!-- 
+<!--
 ```js
 const test = "test"
 

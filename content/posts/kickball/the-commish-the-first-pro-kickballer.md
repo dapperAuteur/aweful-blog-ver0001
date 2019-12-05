@@ -2,6 +2,7 @@
 title: The Commish, The First Pro Kickballer
 author: the commish
 date: 2019-06-13
+hero: ./../images/hero.jpg
 # tags: ["kickball","professional kickball"]
 # category: "post"
 ---

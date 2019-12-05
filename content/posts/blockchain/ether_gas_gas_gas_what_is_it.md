@@ -2,6 +2,7 @@
 title: Ether Gas. Gas. Gas. What Is It?
 author: awe ful
 date: 2018-07-24
+hero: ./../images/hero.jpg
 # tags: ["ether","ethereum", "blockchain", "gitcoin"]
 # category: "post"
 ---

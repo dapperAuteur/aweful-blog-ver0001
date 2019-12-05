@@ -2,6 +2,7 @@
 title: Event Delegation JavaScript Bubbling Capturing Front End Developer Question
 author: awe ful
 date: 2016-10-03
+hero: ./../images/hero.jpg
 # tags: ["junior developer","event delegation", "javascript", "front end development"]
 # category: "post"
 ---

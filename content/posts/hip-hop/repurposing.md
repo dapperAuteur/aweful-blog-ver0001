@@ -2,6 +2,7 @@
 # title: Hip-Hop Jewel
 # author: awe ful
 # date: 1979-06-20
+# hero: ./../images/hero.jpg
 # tags: ["hip-hop","jewel", "about", "#hiphopjewel"]
 # category: "post"
 ---
