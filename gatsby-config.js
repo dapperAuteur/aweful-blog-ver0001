@@ -54,7 +54,35 @@ module.exports = {
         background_color: `#fff`,
         theme_color: `#fff`,
         display: `standalone`,
-        icon: `src/assets/i_write_code_favicon.png`
+        icon: `src/assets/favicon.png`
+      }
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-10207332-30"
+      }
+    },
+    {
+      resolve: `gatsby-plugin-hotjar`,
+      options: {
+        id: 1444912,
+        sv: 6
+      }
+    },
+    {
+      resolve: `gatsby-plugin-facebook-pixel`,
+      options: {
+        pixelId: "477244362862305"
+      }
+    },
+    {
+      resolve: `@mangoart/gatsby-plugin-purechat`,
+      options: {
+        // include the PureChat js snippet
+        enabled: true,
+        // your website id, extract from the snippet provided by purechat
+        websiteId: `1b91dd04-5272-4f61-9eea-ccc7c7dd600a`
       }
     }
   ]
