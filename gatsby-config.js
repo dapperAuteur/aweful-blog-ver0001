@@ -60,20 +60,20 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "UA-10207332-30"
+        trackingId: "UA-148161980-2"
       }
     },
     {
       resolve: `gatsby-plugin-hotjar`,
       options: {
-        id: 1444912,
+        id: 1602015,
         sv: 6
       }
     },
     {
       resolve: `gatsby-plugin-facebook-pixel`,
       options: {
-        pixelId: "477244362862305"
+        pixelId: "592433791542046"
       }
     },
     {
