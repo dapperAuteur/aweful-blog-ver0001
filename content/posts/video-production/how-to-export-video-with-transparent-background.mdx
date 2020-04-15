@@ -5,7 +5,7 @@ author: awe ful
 date: 2020-04-14
 hero: ./export-alpha-channel-square.png
 excerpt: Learn how to add graphics to your videos and streams.
-subscription:
+subscription: true
 tags: ["developer advocate","evangelist","video production"]
 # category: "post"
 ---
@@ -14,11 +14,12 @@ tags: ["developer advocate","evangelist","video production"]
 
 Are you ready to take your videos and streams up a level?
 
-Whether is 16 by 9 or 4 by 3, the space must be used economically. I've spent years streaming badly. What does that mean:
+Whether it's 16 by 9 or 4 by 3, the space must be used economically. I've spent years streaming badly. What does that mean:
 
 - bad audio quality
 - poor lighting
 - poor screen real estate management
+  - too many items/windows on screen to follow along
   - small font is hard to read
   - no titles means viewers don't know what their watching
 
@@ -30,10 +31,16 @@ Example 2 of me doing it wrong:
 
 ![Example two of graphics and an alpha channel used poorly by @awefulBrown during one of their streams. There are too many items on the screen and the text is too small to read.](https://res.cloudinary.com/devdash54321/image/upload/v1586921617/idnkhtw-blog/2020-04/alpha-channel-too-much-to-see-small-text.png)
 
-Today we're going to learn how to create video graphics that export an alpha channel. Exporting the alpha channel of a video will allow you to display the video over another graphic or video with both images/videos appearing on screen. We see examples of this on television all the time, especially in sports. In american football, you'll see the yellow line as the unoffical first down marker. The image below has a yellow line to mark the first down on the left side of the image, a red line to mark the line of scrimmage in the center of the image, and the information bar with the score, team names, game clock and other game information at the bottom of the image.
+Today we're going to learn how to create video graphics that export an alpha channel. Exporting the alpha channel of a video will allow you to display video over another graphic or video with both graphics/videos appearing on screen.
+
+We see examples of this on television all the time, especially in sports. In american football, you'll see the yellow line as the unoffical first down marker. The image below has a yellow line to mark the first down on the left side of the image, a red line to mark the line of scrimmage in the center of the image, and the information bar with the score, team names, game clock and other game information at the bottom of the image.
+
 ![The alpha channels and graphics used in a televised american football game.](https://res.cloudinary.com/devdash54321/image/upload/v1586919950/idnkhtw-blog/2020-04/football_yellow_line.jpg)
-Other examples of exporting a graphic with an alpha channel are the overlay graphic that appears on the news shows we watch, including most of what you see the weatherperson pointing towards. The image below is from the Comedy Central show The Daily Show. The image in the upper left corner is exported with an alpha channel.
+
+The image below is from the Comedy Central show The Daily Show. The image in the upper left corner is exported with an alpha channel.
 ![Screenshot of The Daily Show on Comedy Central using graphics and an alpha channel.](https://res.cloudinary.com/devdash54321/image/upload/v1586919950/idnkhtw-blog/2020-04/daily-show.jpg)
+
+Other examples of exporting a graphic with an alpha channel are the overlay graphic that appears on the news shows we watch, including most of what we see the weatherperson pointing towards. We may do this without using a green screen or special equipment. All we need is the [Open Broadcast Software](http://bit.ly/2Vp4xP6), (OBS), and [Davinci Resolve 16](http://bit.ly/3bVr0uM). There are otehr tools that enable us to do this too. These are the tools I use. I use them because they work well and they're FREE.
 
 Example 1 of screen real estate done well on during a stream:
 
@@ -47,10 +54,38 @@ Example 3 of screen real estate done well on during a stream:
 
 ![Two shot of gamers using screen real estate well.](https://res.cloudinary.com/devdash54321/image/upload/v1586923385/idnkhtw-blog/2020-04/alpha-channel-done-well-text-logos-easy-to-read.png)
 
-Adding a still image or a graphic overlay to a video is more common than adding a video overlay to another video. In a previous blog post we learned how to create a video with an alpha channel.
+Adding a graphic overlay to a video is more common than adding a video overlay to another video. In a previous blog post we learned how to create a video with an alpha channel. In this post we'll learn how to export that video so that we may produce content like the major networks and best streamers.
 
-This will be quick. It's all about the export options you choose. This is one way to export a video with an alpha channel. There are many.
+This will be quick. It's all about the export options you choose. This is one way to export a video with an alpha channel. There are others.
 
-We're using [Davinci Resolve 16](http://bit.ly/3bVr0uM) by Blackmagic Design to produce videos. It's a free and dope. They make awesome hardware too. I use the ATEM Mini for my streams. It's overkill for what I do. I hope to grow my stream to take full advantage of its power.
+We're using [Davinci Resolve 16](http://bit.ly/3bVr0uM) by Blackmagic Design to produce videos. It's a free and dope. They make awesome hardware too. I use the ATEM Mini for my streams. It's overkill for what I do. It performs the same function as a capture card in the streaming setup. I hope to grow my stream to take full advantage of its power.
 
-We're assuming that Davinci Resolve 16 is installed and we have a video with an alpha channel ready to export. Click the `Deliver` button at the bottom right of the screen. It looks like a rocket blasting off :rocket: .
+We're assuming that the steps in the previous blog post are completed:
+- Davinci Resolve 16 is installed.
+- We have a video with an alpha channel ready to export.
+
+Here's a link to a [Davinci Resolve project](add google drive link) and video with an alpha channel for you to use if you don't have one yet. Open it and continue to follow along with the steps below.
+
+Click the `Deliver` button at the bottom right of the screen. It looks like a rocket blasting off :rocket: . This will change the UI. It should look something like this:
+
+![Davinci Resolve Deliver UI](image of Davinci Resolve UI highlighting the Deliver button)
+
+In the upper left corner of the screen we see the 'Render Settings'. This includes some preset render options for popular mediums used to share videos: H.264, ProRes, Vimeo, YouTube, etc. We're going to use 'Custom' render settings.
+
+![Davinci Resolve Deliver UI](image of Davinci Resolve UI highlighting the render settings options described below.)
+
+1 Choose the 'Filename' for the video.
+2 Choose the 'Location' for saving the video.
+3 Choose 'Individual clips' as the 'Render' setting. The default is 'Single clip'. *The option to render an alpha channel is only available when rendering 'Individual clips'*
+4 Choose 'GoPro CineForm' as the 'Codec'.
+5 Choose 'RGB 16-bit' as the 'Type'
+6 Check the 'Export Alpha' option under 'Resolution'
+That's it.
+
+The last two steps are to:
+1 CLICK the 'Add to Render Queue' button.
+2 CLICK the 'Start Render' button.
+
+The process of rendering takes longer than rendering a video without an alpha channel. It'll produce a larger file too.
+
+Thank you for learning with me. Now, I know how `this` works and hopefully you do too. Let me know if you have questions or if you'd like to see a blog post about something else. I'm still on my journey to becoming a Developer Advocate and content creator.
