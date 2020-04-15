@@ -6,30 +6,30 @@ module.exports = {
     description: `The journey of an aspiring centenarian.`,
     hero: {
       heading: `Make It To The Race.`,
-      maxWidth: 652
+      maxWidth: 652,
     },
     social: [
       {
         name: `twitter`,
-        url: `https://twitter.com/awefulBrown`
+        url: `https://twitter.com/awefulBrown`,
       },
       {
         name: `github`,
-        url: `https://github.com/dapperAuteur`
+        url: `https://github.com/dapperAuteur`,
       },
       {
         name: `instagram`,
-        url: `https://instagram.com/awefulbrown`
+        url: `https://instagram.com/awefulbrown`,
       },
       {
         name: `linkedin`,
-        url: `https://www.linkedin.com/in/brandanthonymcdonald`
+        url: `https://www.linkedin.com/in/brandanthonymcdonald`,
       },
       {
         name: `dribbble`,
-        url: `https://dribbble.com/narativestudio`
-      }
-    ]
+        url: `https://dribbble.com/narativestudio`,
+      },
+    ],
   },
   plugins: [
     {
@@ -40,10 +40,10 @@ module.exports = {
         basePath: "/",
         authorsPage: true,
         sources: {
-          local: true
+          local: true,
           // contentful: true,
-        }
-      }
+        },
+      },
     },
     {
       resolve: `gatsby-plugin-manifest`,
@@ -54,27 +54,41 @@ module.exports = {
         background_color: `#fff`,
         theme_color: `#fff`,
         display: `standalone`,
-        icon: `src/assets/favicon.png`
-      }
+        icon: `src/assets/favicon.png`,
+      },
+    },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-emoji`,
+            options: {
+              emojiConversion: "shortnameToUnicode",
+              ascii: false,
+            },
+          },
+        ],
+      },
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "UA-148161980-2"
-      }
+        trackingId: "UA-148161980-2",
+      },
     },
     {
       resolve: `gatsby-plugin-hotjar`,
       options: {
         id: 1602015,
-        sv: 6
-      }
+        sv: 6,
+      },
     },
     {
       resolve: `gatsby-plugin-facebook-pixel`,
       options: {
-        pixelId: "592433791542046"
-      }
+        pixelId: "592433791542046",
+      },
     },
     {
       resolve: `@mangoart/gatsby-plugin-purechat`,
@@ -82,8 +96,8 @@ module.exports = {
         // include the PureChat js snippet
         enabled: true,
         // your website id, extract from the snippet provided by purechat
-        websiteId: `1b91dd04-5272-4f61-9eea-ccc7c7dd600a`
-      }
-    }
-  ]
+        websiteId: `1b91dd04-5272-4f61-9eea-ccc7c7dd600a`,
+      },
+    },
+  ],
 };
